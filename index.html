@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Winston Tom Page</title> 
+</head>
+
+<body>
+
+<h1>Welcome to my Winston Tom Page!</h1>
+<p>Now Testing Loops and Iterations</p>
+
+<script>
+// Now in JAVASCRIPT MODE
+
+// WRITE TO SCREEN
+var myMessage = "Hello Webpage Viewers - Let's Get Loopy! <br>";
+document.write(myMessage);
+
+/*
+var oreosEaten = 1;
+	while (oreosEaten < 10) {
+		document.write("I've eaten ", oreosEaten, " Oreos.<br>");
+		oreosEaten += oreosEaten +1;
+	}
+*/
+
+// * * * PUT JAVASCRIPT LOOPS or ITERATIONS CODE HERE * * *
+for (var oreosEaten = 1; oreosEaten <10; oreosEaten += 1) {
+	document.write("I've eaten ", oreosEaten, " Oreos.<br>");
+}
+// * * * PUT EXAMPLE 1 - WHILE COUNTING SHEEP LOOP HERE * * *
+var sheepCounter = 0;
+while (sheepCounter <10) {
+	document.write("I have counted " + sheepCounter + " sheep! <br>");
+	if (sheepCounter == 5) { break; }
+	sheepCounter ++ ; //This adds 1 to the number of sheep counted.
+}
+		document.write("Zzzzzzzzzzzz <br>"); // Fell asleep counting sheep.
+
+// * * * PUT EXAMPLE 2 - FOR ANIMALS LOOP CODE HERE * * *
+var animals = [ "Lion", "Tiger", "Bear", "Alligator" ];
+for (var i = 0; i < animals.length; i++) {
+	document.write("1st animal is: ", animals[i], "<br>");
+}
+
+// * * * PUT YOUR FOR MY NAME LOOP CODE HERE * * *
+
+<!-- *********** E N D   O F   B O D Y   S T O P   H E R E ******** -->
+</script>
+</body>
+</html>
